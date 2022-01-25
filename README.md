@@ -25,6 +25,65 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 <p>Welcome to the Dart easy documentation!</p>
 
 ---
+### Setting Dart Environment :
+
+# For Windows :
+
+- Press `windows+R`
+- type `cmd` into the box
+- Press `Ctrl+Shift+Enter`
+
+- To install the Dart SDK: 
+```
+    C:\> choco install dart-sdk
+```
+- To upgrade the Dart SDK:
+```
+    C:\> choco upgrade dart-sdk
+```
+
+>Note: By default, the SDK is installed at C:\tools\dart-sdk
+
+> If you can’t use the Dart SDK executables, add the SDK location to your PATH:
+- In the Windows search box, type env.
+- Click Edit the system environment variables.
+- Click Environment Variables….
+- In the user variable section, select Path and click Edit….
+- Click New, and enter the path to the dart-sdk directory.
+- In each window that you just opened, click Apply or OK to dismiss it and apply the path change.
+
+# For Deabien :
+Install using apt-get
+Perform the following one-time setup:
+```
+ sudo apt-get update
+ sudo apt-get install apt-transport-https
+ sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
+ sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'
+```
+
+Then install the Dart SDK:
+
+```
+ sudo apt-get update
+ sudo apt-get install dart
+```
+
+Modify PATH for access to all Dart binaries
+>After installing the SDK, add its bin directory to your PATH. For example, use the following command to change PATH in your active terminal session:
+```
+ export PATH="$PATH:/usr/lib/dart/bin"
+```
+>To change the PATH for future terminal sessions, use a command like this:
+```
+ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
+```
+
+# System requirements:
+
+The Dart SDK is supported on Windows, Linux, and macOS.
+
+---
 # Dart Samples :
 
 #### Our First Test :
@@ -274,6 +333,10 @@ this code block will show you a hell of errors so how to solve it ?
         foulen.publish();
     }
 ```
+
+---
+# Since we made it through the learning Phase let us Get Ready For Flutter where we will be using Dart in our Journey
+---
 
 ### Setting Environment For Mobile Development
 
