@@ -1,4 +1,4 @@
-### Dart
+# Dart
 
 ###### Description
 <p>
@@ -23,6 +23,15 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 ![VS](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 <p>Welcome to the Dart easy documentation!</p>
+
+### Dart Samples :
+
+#### Hello World :
+
+<p>Every app has a main() function. To display text on the console, you can use the top-level print() function:</p>
+
+
+
 
 ### Setting Environment For Mobile Development
 
@@ -71,16 +80,33 @@ Activate The Developer Mode on your Iphone
 ##### Steps :
 - Open Xcode on your MAC.
 
+<p>
+If you are opening the program for the first time, you should accept the terms of the license agreement. This will allow you to install the software components and finalize the installation of Xcode.  
+</p>
+
 ![](https://www.wikihow.com/images/thumb/9/9b/Enable-Developer-Mode-on-an-iPhone-Step-9.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-9.jpg.webp)
 
 - Connect your iPhone to Mac.
+
+<p>
+Use your USB cable to connect your phone to the computer. 
+</p>
 
 ![](https://www.wikihow.com/images/thumb/2/2f/Enable-Developer-Mode-on-an-iPhone-Step-10.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-10.jpg.webp)
 
 - Go to "Settings" in your Iphone
 
+<p>
+It's the gray gear icon on your iPhone's home screen.
+</p>
+
 ![](https://www.wikihow.com/images/thumb/3/30/Enable-Developer-Mode-on-an-iPhone-Step-11.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-11.jpg.webp)
 
 - Scroll down, then tap "Developer"
 
+<p>
+When you connect your phone to your computer while running Xcode, you will see this option will automatically show up in your iPhone settings. The fact that you see this feature in your phone's settings means that you have enabled developer mode on your iPhone. You can now build apps, check registries, and play with other developer tweaks on your device.
+</p>
+
 ![](https://www.wikihow.com/images/thumb/5/5c/Enable-Developer-Mode-on-an-iPhone-Step-12.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-12.jpg.webp)
+
