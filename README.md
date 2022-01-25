@@ -9,3 +9,5 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 </p>
 
 # Let us break the glass ceiling
+
+![](https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg)
