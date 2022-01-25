@@ -1,5 +1,5 @@
 # Dart
-
+---
 ###### Description
 <p>
  is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications.
@@ -7,7 +7,7 @@
 <p>
 Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript. It supports interfaces, mixins, abstract classes, reified generics, and type inference.
 </p>
-
+---
 # Let us break the glass ceiling
 
 ![](https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg)
@@ -21,17 +21,163 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![VS](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
-
+---
 <p>Welcome to the Dart easy documentation!</p>
 
-### Dart Samples :
+---
+# Dart Samples :
 
-#### Hello World :
+#### Our First Test :
+
+if you want to try your code here's the link :
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)]()
 
 <p>Every app has a main() function. To display text on the console, you can use the top-level print() function:</p>
 
+```Dart
+    void main() {
+  print('Hello, World!');
+    }
+```
 
+###### Variables
+```Dart
+    var name = 'myName';
+    Object type = 'camel Code';
+    // type will be a String
+    // since we're Learning Dart to develop flutter apps so we must know that changing
+    //variable types during execution will rise an error
+    //so that's why dart has an other Object type which is dynamic
+    dynamic whatEver = 'you can store what ever you want';
+```
 
+<p>
+as you noticed Dart is a combo of so !
+</p>
+
+![Js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)
+
+<p>
+it's not that weird anyways
+</p>
+
+let's Try it :
+```Dart
+dynamic x = 'hi';
+print(x); // that will show us hi
+x= 20;
+print(x); // that will show us 20
+
+// if we used Object or specified the type we won't be able to change it
+```
+##### assert:
+assert main role is to assure samthing
+for exemple 
+`assert(x<100);` to make sure that x < 100
+assert return type is boolean
+assert is only used in development phase in purpose of testing 
+but in production all asserts will be ignored
+we can manipulate assert too :
+```Dart
+assert(condition /*if true nothing happen and we'll continue*/, MSG /*will be written in console if condition is false*/);
+```
+
+##### Functions :
+```Dart
+//let's create a Function
+String sayHello (){
+    return 'hello';
+}
+void main(){
+    String hi= sayHello();
+    print(hi); //affiche hello
+}
+```
+##### Errow Function :
+if we don't have a logic in our functions and we have no input methodes to call then we can create an errow function
+    for an exemple :
+```Dart
+    String sayHello(/*INPUT methodes*/){
+        //logic
+        return 'hello';
+    }
+```
+then we can easily write it this way :
+
+```Dart
+    String sayHello() => 'hello';
+```
+
+##### Classes :
+```Dart
+    class User{
+        String x;
+        int y;
+        /* methodes() */
+    }
+    
+    void main(){
+        User x= User();
+    }
+```
+#### extends
+```Dart
+    class User{
+        String name;
+        int? age;
+        //default constructor:
+        User(){
+            this.name='Unknowned';
+            this.age=null;
+        }
+        //constructor:
+        User(String x,int y){
+            this.name=x;
+            this.age=y;
+        }
+    }
+    class SuperUser extends User{
+        SuperUser():super();
+        SuperUser(String,int):super(name,age);
+        void publish(){
+            print('am a SuperUser');
+        }
+    }
+    void main(){
+        User flen = User('flen',10);
+        SuperUser falten = User('falten',20);
+        SuperUser foulen = SuperUser('foulen',30);
+        foulen.publish(); // consol will show am a superUser;
+        falten.publish(); // consol will show am a superUser;
+        flen.publish(); // consol will show an error
+    }
+```
+this code block will show you a hell of errors so how to solve it ?
+```Dart
+    class User{
+        late String name;
+        late int age;
+        //constructor:
+        User(String name,int age){
+            this.name=name;
+            this.age=age;
+        }
+    }
+    class SuperUser extends User{
+        SuperUser(String,int):super(String,int);
+        void publish(){
+            print('am a SuperUser');
+        }
+    }
+    void main(){
+        User flen = User('flen',10);
+        SuperUser foulen = SuperUser('foulen',30);
+        foulen.publish();
+    }
+```
 
 ### Setting Environment For Mobile Development
 
