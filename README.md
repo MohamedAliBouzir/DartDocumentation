@@ -42,9 +42,7 @@ Activate The Developer Mode on your Android
 
 - Scroll down, then tap "Build number" seven times.
 
-- Enter your pattern, PIN or password to enable the Developer options menu.
+Depending on your device and operating system, you may need to tap "Software information", then tap "Build number" seven times.
 
-- The "Developer options" menu will now appear in your Settings menu.
-
-- To disable the Developer options menu, tap the switch.
-
+![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/2-how-do-i-turn-on-the-developer-options-menu.png?$ORIGIN_PNG$)
+![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/3-how-do-i-turn-on-the-developer-options-menu.png?$ORIGIN_PNG$)
