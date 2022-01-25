@@ -2,7 +2,7 @@
 
 ###### Description
 <p>
- is a programming language designed for client development,[9][10] such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications.
+ is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications.
 </p>
 <p>
 Dart is an object-oriented, class-based, garbage-collected language with C-style syntax. Dart can compile to either native code or JavaScript. It supports interfaces, mixins, abstract classes, reified generics, and type inference.
@@ -21,4 +21,6 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 ![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![VS](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
+
+<p>Welcome to the Dart easy documentation!</p>
 
