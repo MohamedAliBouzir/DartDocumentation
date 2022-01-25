@@ -85,6 +85,44 @@ we can manipulate assert too :
 assert(condition /*if true nothing happen and we'll continue*/, MSG /*will be written in console if condition is false*/);
 ```
 
+#####late Variables :
+we can write late in this way :
+```Dart
+ late type nameVariable = affectSomething ;
+```
+
+Used to fix errors of unsetted variables.
+dart allows you to create variables but not null ones, So some times it can't detect if the variable will be defined later on.
+So we use late to tell Dart it will be declared later.
+sometimes we do use `late` and define it directly
+```Dart
+late String name = _readname();
+```
+- The variable may not be needed
+- instance variable uninitialized that needs access to `this`
+- if it's never used, the function will never be called
+
+##### const vs final ?
+
+const is const.
+a const is a variable that can't be changed.
+final is assigned to a variable that result a function and will never change again
+we use final in class instance variables
+
+#### built-in types:
+
+numbers : `int` & `double`
+Strings : `String`
+Booleans : `bool`
+
+###### Lists Usage :
+```Dart
+var l = [1,2,3];
+//create a const list :
+var l = const[1,2,3] // you can never change them
+var m = [0, ...l]; // mwill have [0,1,2,3]
+```
+
 ##### Functions :
 ```Dart
 //let's create a Function
@@ -255,4 +293,5 @@ When you connect your phone to your computer while running Xcode, you will see t
 </p>
 
 ![](https://www.wikihow.com/images/thumb/5/5c/Enable-Developer-Mode-on-an-iPhone-Step-12.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-12.jpg.webp)
+
 
