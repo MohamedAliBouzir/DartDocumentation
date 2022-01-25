@@ -38,4 +38,3 @@ Activate The Developer Mode on your Android
 - Enter your pattern, PIN or password to enable the Developer options menu.
 - The "Developer options" menu will now appear in your Settings menu.
 - To disable the Developer options menu, tap the switch.
-- 
