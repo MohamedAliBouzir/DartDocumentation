@@ -11,3 +11,6 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 # Let us break the glass ceiling
 
 ![](https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg)
+
+
+![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
