@@ -24,6 +24,18 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 
 <p>Welcome to the Dart easy documentation!</p>
 
-###setting environment
+### Setting Environment
 
-####
+#### Your Device :
+
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+<p>
+Activate The Developer Mode on your Android
+</p>
+##### Steps :
+- Go to "Settings", then tap "About device" or "About phone".
+- Scroll down, then tap "Build number" seven times.
+- Enter your pattern, PIN or password to enable the Developer options menu.
+- The "Developer options" menu will now appear in your Settings menu.
+- To disable the Developer options menu, tap the switch.
+- 
