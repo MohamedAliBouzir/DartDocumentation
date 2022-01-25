@@ -133,7 +133,9 @@ print(x); // that will show us 20
 
 // if we used Object or specified the type we won't be able to change it
 ```
+
 ##### assert:
+
 assert main role is to assure samthing
 for exemple 
 `assert(x<100);` to make sure that x < 100
@@ -146,6 +148,7 @@ assert(condition /*if true nothing happen and we'll continue*/, MSG /*will be wr
 ```
 
 #####late Variables :
+
 we can write late in this way :
 ```Dart
  late type nameVariable = affectSomething ;
@@ -185,6 +188,7 @@ var m = [0, ...l]; // mwill have [0,1,2,3]
 ```
 
 ##### sets and maps :
+
 ###### set :
 A set in Dart is an unordered collection of unique items.
 ```Dart
@@ -215,6 +219,7 @@ assert(elements.length == 5);
 ```
 
 ###### map :
+ 
 In general, a map is an object that associates keys and values. Both keys and values can be any type of object. Each key occurs only once, but you can use the same value multiple times.
 ```Dart
     var mappin = {
@@ -252,7 +257,9 @@ void main(){
     print(hi); //affiche hello
 }
 ```
+ 
 ##### Errow Function :
+ 
 if we don't have a logic in our functions and we have no input methodes to call then we can create an errow function
     for an exemple :
 ```Dart
