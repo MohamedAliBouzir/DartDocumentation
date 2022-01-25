@@ -116,6 +116,7 @@ Strings : `String`
 Booleans : `bool`
 
 ###### Lists Usage :
+
 ```Dart
 var l = [1,2,3];
 //create a const list :
@@ -123,7 +124,64 @@ var l = const[1,2,3] // you can never change them
 var m = [0, ...l]; // mwill have [0,1,2,3]
 ```
 
+##### sets and maps :
+###### set :
+A set in Dart is an unordered collection of unique items.
+```Dart
+    var dict = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
+```
+> Note: Dart infers that dict has the type Set<String>. If you try to add the wrong type of value to the set, the analyzer or runtime raises an error.
+
+>Another Note: fun fact i named it dict because it looks like python's dictionary !
+
+Initializing an empty :
+```Dart
+    var names = <String>{};
+    Set<String> names = {}; // This works, too.
+```
+
+>Note: var names = {}; // Creates a map, not a set.
+
+Add items to an existing set using the add() or addAll() methods:
+```Dart
+    var elements = <String>{};
+    elements.add('fluorine');
+    elements.addAll(dict);
+```
+
+Use `.length` to get the number of items in the set:
+```Dart
+assert(elements.length == 5);
+```
+
+###### map :
+In general, a map is an object that associates keys and values. Both keys and values can be any type of object. Each key occurs only once, but you can use the same value multiple times.
+```Dart
+    var mappin = {
+        // Key:    Value
+        'first': 'test1',
+        'second': 'test2',
+        'fifth': 'test5'
+    };
+```
+Maps are written :
+`Map<String, String>`
+
+Map constructor:
+```Dart
+    var gifts = Map<String, String>();
+    gifts['first'] = 'partridge';
+    gifts['second'] = 'turtledoves';
+    gifts['fifth'] = 'golden rings';
+```
+
+We maybe forgot but if we want to concat two things together :
+```Dart
+    print('The last character: ${hi.characters.last}\n');
+```
+
 ##### Functions :
+
 ```Dart
 //let's create a Function
 String sayHello (){
