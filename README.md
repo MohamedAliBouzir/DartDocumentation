@@ -24,7 +24,7 @@ Dart is an object-oriented, class-based, garbage-collected language with C-style
 
 <p>Welcome to the Dart easy documentation!</p>
 
-### Setting Environment
+### Setting Environment For Mobile Development
 
 #### Your Device :
 
@@ -46,3 +46,16 @@ Depending on your device and operating system, you may need to tap "Software inf
 
 ![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/2-how-do-i-turn-on-the-developer-options-menu.png?$ORIGIN_PNG$)
 ![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/3-how-do-i-turn-on-the-developer-options-menu.png?$ORIGIN_PNG$)
+
+- Enter your pattern, PIN or password to enable the Developer options menu.
+
+
+- The "Developer options" menu will now appear in your Settings menu.
+
+Depending on your device, it may appear under Settings > General > Developer options.
+
+![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/4-how-do-i-turn-on-the-developer-options-menu.png?$ORIGIN_PNG$)
+
+- To disable the Developer options menu, tap the switch.
+
+![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/5-how-do-i-turn-on-the-developer-options-menu.gif?$ORIGIN_GIF$)
