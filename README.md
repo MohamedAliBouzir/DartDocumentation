@@ -59,3 +59,28 @@ Depending on your device, it may appear under Settings > General > Developer opt
 - To disable the Developer options menu, tap the switch.
 
 ![](https://images.samsung.com/is/image/samsung/assets/uk/support/mobile-devices/how-do-i-turn-on-the-developer-options-menu-on-my-samsung-galaxy-device/images/5-how-do-i-turn-on-the-developer-options-menu.gif?$ORIGIN_GIF$)
+
+#### Your Device :
+
+![IOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+
+<p>
+Activate The Developer Mode on your Iphone
+</p>
+
+##### Steps :
+- Open Xcode on your MAC.
+
+![](https://www.wikihow.com/images/thumb/9/9b/Enable-Developer-Mode-on-an-iPhone-Step-9.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-9.jpg.webp)
+
+- Connect your iPhone to Mac.
+
+![](https://www.wikihow.com/images/thumb/2/2f/Enable-Developer-Mode-on-an-iPhone-Step-10.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-10.jpg.webp)
+
+- Go to "Settings" in your Iphone
+
+![](https://www.wikihow.com/images/thumb/3/30/Enable-Developer-Mode-on-an-iPhone-Step-11.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-11.jpg.webp)
+
+- Scroll down, then tap "Developer"
+
+![](https://www.wikihow.com/images/thumb/5/5c/Enable-Developer-Mode-on-an-iPhone-Step-12.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-12.jpg.webp)
