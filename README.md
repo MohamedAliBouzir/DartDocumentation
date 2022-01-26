@@ -113,6 +113,30 @@ if you want to try your code here's the link :
     dynamic whatEver = 'you can store what ever you want';
 ```
 
+### Object vs Dynamic
+
+```Dart
+    void main(){
+        Object x=5;
+        print(x);
+        x='Test';
+        print(x);
+        print(x.length);
+    }
+```
+
+```Dart
+        void main(){
+        dynamic x=5;
+        print(x);
+        x='Test';
+        print(x);
+        print(x.length);
+    }
+```
+
+## Run'em Both you'll Learn the difference
+
 <p>
 as you noticed Dart is a combo of so !
 </p>
