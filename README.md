@@ -477,7 +477,7 @@ When you connect your phone to your computer while running Xcode, you will see t
 
 ## Add Dart and Flutter to you VsCode
 
-- Install Dart Flutter extension :
+- Install Dart & Flutter extension :
 
 ![](https://i.stack.imgur.com/qr1ti.png)
 
