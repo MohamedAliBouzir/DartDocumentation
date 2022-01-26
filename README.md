@@ -92,7 +92,7 @@ The Dart SDK is supported on Windows, Linux, and macOS.
 #### Our First Test :
 
 if you want to try your code here's the link :
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dartpad.dev/?)
+<a target="_blank">[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dartpad.dev/?)</a>
 
 <p>Every app has a main() function. To display text on the console, you can use the top-level print() function:</p>
 
