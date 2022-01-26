@@ -482,7 +482,7 @@ When you connect your phone to your computer while running Xcode, you will see t
 ![](https://i.stack.imgur.com/qr1ti.png)
 
 
-- Press Ctrl + Shift + P on Windows or Cmd + Shift + P on Mac
+- Press `Ctrl + Shift + P` on Windows or `Cmd + Shift + P` on Mac
 
 ![](https://i.stack.imgur.com/9s99r.png)
 
