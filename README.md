@@ -450,3 +450,41 @@ When you connect your phone to your computer while running Xcode, you will see t
 ![](https://www.wikihow.com/images/thumb/5/5c/Enable-Developer-Mode-on-an-iPhone-Step-12.jpg/v4-728px-Enable-Developer-Mode-on-an-iPhone-Step-12.jpg.webp)
 
 
+---
+
+### Let us Create a Virtual Device :
+
+- Open the Device Manager.
+
+![Device Manager](https://developer.android.com/studio/images/run/device-manager-welcome-screen.png)
+
+- After opening a project, select View > Tool Windows > Device Manager from the main menu bar.
+
+![](https://developer.android.com/studio/images/run/new-device-manager.png)
+
+- Click Create Device.
+
+- The Select Hardware window appears
+
+![](https://developer.android.com/studio/images/run/select-hardware-window.png)
+
+- Select a hardware profile, and then click Next.
+
+![](https://developer.android.com/studio/images/run/system-image.png)
+
+- Change AVD properties as needed, and then click Finish.
+
+## Add Dart and Flutter to you VsCode
+
+- Install Dart extension :
+
+![](https://i.stack.imgur.com/qr1ti.png)
+
+- Install Flutter extension :
+
+![](https://i.stack.imgur.com/qr1ti.png)
+
+- Press Ctrl + Shift + P on Windows or Cmd + Shift + P on Mac
+
+![](https://i.stack.imgur.com/9s99r.png)
+
