@@ -114,6 +114,12 @@ if you want to try your code here's the link :
     dynamic whatEver = 'you can store what ever you want';
 ```
 
+#### built-in types:
+
+numbers : `int` & `double`
+Strings : `String`
+Booleans : `bool`
+
 ### Object vs Dynamic
 
 ```Dart
@@ -199,11 +205,6 @@ a const is a variable that can't be changed.
 final is assigned to a variable that result a function and will never change again
 we use final in class instance variables
 
-#### built-in types:
-
-numbers : `int` & `double`
-Strings : `String`
-Booleans : `bool`
 
 ###### Lists Usage :
 
